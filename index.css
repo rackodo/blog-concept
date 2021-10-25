@@ -1,0 +1,60 @@
+/* Palette: https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875 */
+
+:root {
+    --a: #ffcdb2;
+    --b: #ffb4a2;
+    --c: #e5989b;
+    --d: #b5838d;
+    --e: #6d6875;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: #333;
+}
+
+navbar a {
+    color: white;
+    text-align: center;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    transition: background-color, color, 0.5s;
+    text-decoration: ginone;
+    flex: none;
+}
+
+navbar a:hover {
+    background-color: #ccc;
+    color: black;
+}
+  
+
+@media screen and (max-width: 600px) {
+    navbar {
+        flex-wrap: wrap;
+        flex-direction: row;
+        display: flex;
+    }
+
+    navbar a {
+        flex: 50%;
+        float: none;
+    }
+}
