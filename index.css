@@ -125,9 +125,14 @@ navbar a:hover {
         display: flex;
     }
 
+    .card > p, li {
+        font-size: 12px;
+    }
+
     navbar a {
         flex: 50%;
         float: none;
+        font-size: 12px;
     }
 }
 
